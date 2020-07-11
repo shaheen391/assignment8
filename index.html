@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="main shadow p-3 mb-5 bg-white rounded container-sm container-md container-lg">
+        
+        <div class="  container-sm container-md container-lg stop_watch">
+            <h1>Stop Watch</h1>
+        </div>
+         
+
+        <div class=" container-sm container-md container-lg">
+
+            <h2 id="min">0:0</h2>
+            <h2 id="sec">0:0</h2>
+            <h2 id="msec">0:0</h2><br>
+        </div>
+        <div class=" container-sm container-md container-lg but">
+
+            <button id="start_btn" onclick="start() " type="button" class="btn btn-secondary button1">Start</button>
+            <button id="stop_btn" onclick="stop()" type="button" class="btn btn-secondary button1">Stop</button>
+            <button id="reset_btn" onclick="reset()" type="button" class="btn btn-secondary button1">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
